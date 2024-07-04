@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Junge&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  font-family: "Junge", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px !important;
+}
+
+.container .card {
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+}
+
+.noProductMessage {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
